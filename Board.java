@@ -39,7 +39,7 @@ public class Board implements ActionListener {
 			pButton[x][y].setSize(80,80);
 			pButton[x][y].setBounds(x*80+10, y*80+10, 80, 80);
 			pButton[x][y].setMargin(new Insets(0,0,0,0));
-			pButton[x][y].setBackground(Color.GRAY);
+			pButton[x][y].setBackground(Color.GREEN);
 			pButton[x][y].setFont(new Font("ＭＳゴシック", Font.PLAIN, 60));
 			pButton[x][y].setActionCommand(String.valueOf(i));
 			pButton[x][y].addActionListener(this);
